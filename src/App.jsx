@@ -1,4 +1,6 @@
 import { useState } from "react";
+import "./App.css";
+import Navbar from "./components/navbar";
 
 function App() {
 
@@ -6,6 +8,7 @@ function App() {
   
   return (
     <div>
+      <Navbar />
       <h1>Count:{count}</h1>
       <button onClick={()=>setCount(count + 1)}>Tambah</button>
       <button onClick={()=>setCount(count - 1)}>Kurang</button>
