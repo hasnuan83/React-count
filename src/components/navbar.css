@@ -1,0 +1,18 @@
+.navbar{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav-ui{
+    display: flex;
+    gap: 20px;
+    color: white;
+    justify-content: right;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
